@@ -1,0 +1,30 @@
+form{
+	display: none;
+}
+
+
+.tabela{
+	margin-top: 100px;
+	margin-right: -50px;
+	float: left;
+}
+
+.celula{
+	display: inline-block;
+	width: 97px;
+	height: 135px;
+	border: 1.9px solid black;
+	border-radius: 6px;
+	margin: 4px;
+	background: white !important;
+}
+
+h1,p{
+	color: #000;
+}
+
+.titulo{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 0px;
+}

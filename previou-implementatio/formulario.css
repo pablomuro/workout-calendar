@@ -1,0 +1,51 @@
+.esquerda{
+	display: block;
+	float: left;
+	margin: 0px auto;
+	margin-top: 1% !important;
+	width: 30%;
+}
+
+.titulo{
+	margin: 10px;
+	padding: 5px;
+	margin-left: 25%;
+}
+
+form{
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+label,input,option{
+	font-family: Arial ,serif;
+}
+
+span{
+	display: block;
+}
+
+button{
+	margin-top: 10%;
+	margin-left: 25%;
+}
+
+input[type="checkbox"]{
+	display: inline;
+}
+
+input, textarea, select{
+	margin-top: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+	outline: 0;
+	outline: thin dotted \9;
+}

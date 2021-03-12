@@ -1,0 +1,41 @@
+.tabela{
+	margin: 0px auto;
+	margin-top: 5%;
+	margin-right: 6%;
+	display: block;
+	float: right;
+}
+
+.celula{
+	display: inline-block;
+	width: 97px;
+	height: 135px;
+	border: 1.9px solid black;
+	border-radius: 6px;
+	margin: 4px;
+	box-shadow: 1px 1px 4px black;
+}
+
+.celula div{
+	height: 128px;
+	margin-left: 2px;
+	margin-right: 6px;
+}
+
+.titulodia, .celula p{
+	margin: 0;
+}
+
+.titulodia{
+	font-family: Arial ,serif;
+	font-size: 25px;
+	color: rgb(0,160,227);
+	text-align: center;
+}
+
+.celula p{
+	font-family:Arial ,serif;
+	font-size:16px;
+	margin-top: 21%;
+	text-align: center;
+}
